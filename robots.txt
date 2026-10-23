@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pap.rodolfovalle.com/sitemap.xml
