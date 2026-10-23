@@ -111,3 +111,32 @@ body.pap-minimal .pap-cover-symbol{font-size:63px}
 @media(max-width:640px){.pap-entry-grid{grid-template-columns:1fr}.pap-entry{padding:38px 0 55px}.pap-guide-cover{gap:12px}.pap-cover-art{min-height:207px}.pap-cover-symbol{font-size:70px}.pap-cover-text{padding:19px}.pap-guide-icons{grid-template-columns:repeat(3,minmax(0,1fr))}.pap-guide-icon{padding:10px 7px;font-size:11px}.pap-glance-card{padding:13px}.pap-mini-panel{padding:16px}.pap-color-legend span{font-size:11px;padding:7px 10px}.pap-mode-btn{width:100%}.pap-mode-caption{font-size:11px}}
 @media(prefers-reduced-motion:reduce){.pap-entry-card{transition:none}}
 
+
+
+/* PAP v1.4: biblioteca ampliamente ilustrada */
+.pap-photo-card{display:block;width:100%;height:158px;object-fit:cover;border-radius:11px;margin:-9px 0 17px;background:#e7f2ed}
+.pap-photo-entry{display:block;width:100%;height:130px;object-fit:cover;border-radius:12px;margin-bottom:14px}
+.pap-cover-art{position:relative;overflow:hidden}
+.pap-cover-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.pap-cover-art::after{content:"";position:absolute;bottom:0;left:0;right:0;height:42%;background:linear-gradient(transparent,#102c338c);pointer-events:none}
+.pap-cover-art .pap-cover-symbol{position:absolute;z-index:2;top:13px;right:13px;background:#17383dcc;padding:8px 13px;border-radius:14px;font-size:28px;line-height:1.2}
+.pap-cover-art .pap-cover-category{position:absolute;z-index:2;bottom:17px;left:17px}
+.pap-photo-figure{margin:26px 0;background:#fff;border:1px solid #deebe5;border-radius:16px;overflow:hidden}
+.pap-photo-figure img{display:block;width:100%;height:auto;aspect-ratio:920/345;object-fit:contain}
+.pap-photo-figure figcaption{padding:8px 13px 12px;color:#667c75;font-size:11px;line-height:1.5}
+.pap-photo-credits{color:#607973;font-size:11px;margin:10px 0}
+.pap-photo-credits a{color:#38675d}
+.pap-related-visual{margin:25px 0 35px;padding-top:19px;border-top:1px solid #dce7e2}
+.pap-related-visual h2{font-size:clamp(24px,3vw,35px)}
+.pap-related-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.pap-related-grid a{border:1px solid #dce7e2;border-radius:12px;background:#fff;overflow:hidden;text-decoration:none;display:block}
+.pap-related-grid img{display:block;width:100%;height:130px;object-fit:cover}
+.pap-related-grid strong{display:block;padding:10px 12px;font-size:13px;color:#234c46;line-height:1.4}
+.pap-visual-method{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin-top:28px}
+.pap-visual-method a{display:block;text-decoration:none;background:#fff;border-radius:12px;overflow:hidden;border:1px solid #deebe5}
+.pap-visual-method img{display:block;width:100%;height:145px;object-fit:cover}
+.pap-visual-method strong{display:block;color:#245a53;padding:9px 12px;font-size:14px}
+.pap-tool-visual{max-width:760px;margin:20px auto 25px}
+.pap-tool-visual img{width:100%;max-height:225px;object-fit:cover;border-radius:18px}
+@media(max-width:760px){.pap-photo-card{height:142px}.pap-related-grid a img{height:100px}.pap-related-grid strong{font-size:11px}.pap-visual-method img{height:90px}.pap-photo-entry{height:110px}.pap-photo-figure{margin:17px 0}}
+@media(prefers-reduced-motion:reduce){.pap-photo-card{transition:none}}
