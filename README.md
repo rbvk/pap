@@ -7,9 +7,10 @@ Biblioteca estática y accesible en español para `https://pap.rodolfovalle.com/
 - Página principal con búsqueda en cliente y filtros, 12 artículos enlazables.
 - 3 herramientas locales: orientador PAP (no clínico), anclaje sensorial y checklist imprimible.
 - Artículos con fuentes oficiales e investigación revisada por pares.
-- Contactos oficiales de emergencia para Chile, privacidad editorial y autoría.
+- Contactos oficiales de emergencia para Chile, privacidad editorial y autoría visible en portada, artículos y herramientas.
+- Página `sobre-el-creador.html` y dos fotografías Unsplash con crédito y enlaces a las licencias.
 - Metadatos SEO y `schema.org`, `robots.txt`, `sitemap.xml` y `CNAME`.
-- Sin librerías externas, cookies publicitarias, SDKs de terceros ni almacenamiento de respuestas.
+- Sin librerías JS externas, cookies publicitarias, SDKs de terceros ni almacenamiento de respuestas. Las dos fotografías se cargan desde Unsplash (recurso externo; ver privacidad).
 
 ## Publicación en GitHub Pages
 
@@ -43,3 +44,7 @@ PAP es una intervención de apoyo informada por evidencia. Esta biblioteca no eq
 Revisar periódicamente números telefónicos oficiales, URLs de guías, referencias científicas y fecha de revisión editorial. Actualizar `sitemap.xml` y `dateModified` cuando se modifique contenido sustancial. Evitar añadir seguimiento/analítica sin actualizar la política de privacidad.
 
 © 2026 Rodolfo Valle. Contenido original de divulgación. Las fuentes externas mantienen sus propias licencias.
+
+## Actualización v1.1 (23/10/2026)
+
+Revisión documental no equivalente a validación clínica independiente. Las fotos se sirven desde Unsplash y podrían generar solicitudes de red a ese proveedor. Actualizada política de privacidad. Añadida página de autoría y créditos.
